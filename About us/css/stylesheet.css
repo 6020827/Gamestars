@@ -520,5 +520,26 @@ input[type=radio] {
     height: calc(1vw * (768 / 1366 * 100));
     z-index: 2;
   }
-  
+ 
+#video {
+	position: absolute;
+	z-index: 60;
+	top: 10vw;
+	left 10vw;
+}
 
+.tekst{
+	position: absolute;
+	z-index: 61;
+	bottom: 10vw;
+	left: 30vw;
+	width: 43vw;
+	font-size: calc(1vw * (22 / 1366 * 100));
+    font-family: "Agency FB";
+	text-align: center;
+	color: rgb(57, 255, 20);
+	background-color: #000000;
+	padding: calc(1vw * (20 / 1366 * 100));
+	border: calc(1vw * (3 / 1366 * 100)) solid rgb(57, 255, 20);
+	border-radius: calc(1vw * (20 / 1366 * 100));
+}
