@@ -1,0 +1,651 @@
+@charset "UTF-8";
+
+* {
+padding: auto;
+margin: 0;
+}
+
+body {overflow-x: hidden; background-color: #1b1b1b;}
+
+
+  
+  .Logo {
+    background-image: url('../images/Logo.png');
+    background-size: cover;
+    position: absolute;
+    left: calc(1vw * (40 / 1366 * 100));
+    top: calc(1vw * (20 / 1366 * 100));
+    width: calc(1vw * (113 / 1366 * 100));
+    height: calc(1vw * (129 / 1366 * 100));
+    z-index: 50;
+  }
+
+ 
+  .PC_icon {
+    background-image: url('../images/PC.png');
+    background-size: cover;
+    position: absolute;
+    left: calc(1vw * (743 / 1366 * 100));
+    top: calc(1vw * (39 / 1366 * 100));
+    width: calc(1vw * (96 / 1366 * 100));
+    height: calc(1vw * (72 / 1366 * 100));
+    z-index: 48;
+  }
+
+  .Mobile_icon {
+    background-image: url('../images/Mobile.png');
+    background-size: cover;
+    position: absolute;
+    left: calc(1vw * (634 / 1366 * 100));
+    top: calc(1vw * (37 / 1366 * 100));
+    width: calc(1vw * (45 / 1366 * 100));
+    height: calc(1vw * (77 / 1366 * 100));
+    z-index: 47;
+  }
+
+  .PlayStation_icon {
+    background-image: url('../images/PlayStation.png');
+    background-size: cover;
+    position: absolute;
+    left: calc(1vw * (481 / 1366 * 100));
+    top: calc(1vw * (49 / 1366 * 100));
+    width: calc(1vw * (83 / 1366 * 100));
+    height: calc(1vw * (52 / 1366 * 100));
+    z-index: 46;
+  }
+
+  .XBOX_icon {
+    background-image: url('../images/XBOX.png');
+    background-size: cover;
+    position: absolute;
+    left: calc(1vw * (350 / 1366 * 100));
+    top: calc(1vw * (47 / 1366 * 100));
+    width: calc(1vw * (78 / 1366 * 100));
+    height: calc(1vw * (54 / 1366 * 100));
+    z-index: 45;
+  }
+
+  .Switch_icon {
+    background-image: url('../images/Switch.png');
+    background-size: cover;
+    position: absolute;
+    left: calc(1vw * (218 / 1366 * 100));
+    top: calc(1vw * (36 / 1366 * 100));
+    width: calc(1vw * (72 / 1366 * 100));
+    height: calc(1vw * (65 / 1366 * 100));
+    z-index: 44;
+  }
+
+  .PC {
+    font-size: calc(1vw * (24 / 1366 * 100));
+    font-family: "Agency FB";
+    color: rgb(57, 255, 20);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: calc(1vw * (781 / 1366 * 100));
+    top: calc(1vw * (122 / 1366 * 100));
+    z-index: 43;
+  }
+
+  .Mobile {
+    font-size: calc(1vw * (24 / 1366 * 100));
+    font-family: "Agency FB";
+    color: rgb(57, 255, 20);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: calc(1vw * (631 / 1366 * 100));
+    top: calc(1vw * (122 / 1366 * 100));
+    z-index: 42;
+  }
+
+  .PlayStation {
+    font-size: calc(1vw * (24 / 1366 * 100));
+    font-family: "Agency FB";
+    color: rgb(57, 255, 20);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: calc(1vw * (477 / 1366 * 100));
+    top: calc(1vw * (122 / 1366 * 100));
+    z-index: 41;
+  }
+
+  .XBOX {
+    font-size: calc(1vw * (24 / 1366 * 100));
+    font-family: "Agency FB";
+    color: rgb(57, 255, 20);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: calc(1vw * (366 / 1366 * 100));
+    top: calc(1vw * (122 / 1366 * 100));
+    z-index: 40;
+  }
+
+  .Switch {
+    font-size: calc(1vw * (24 / 1366 * 100));
+    font-family: "Agency FB";
+    color: rgb(57, 255, 20);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: calc(1vw * (226 / 1366 * 100));
+    top: calc(1vw * (122 / 1366 * 100));
+    z-index: 39;
+  }
+
+  .Rechthoek_2_kopiëren_4 {
+    border-width: calc(1vw * (2 / 1366 * 100));
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 12px;
+    background-color: rgb(98, 98, 98);
+    position: absolute;
+    left: calc(1vw * (740 / 1366 * 100));
+    top: calc(1vw * (18 / 1366 * 100));
+    width: calc(1vw * (98 / 1366 * 100));
+    height: calc(1vw * (139 / 1366 * 100));
+    z-index: 38;
+  }
+
+  .Rechthoek_2_kopiëren_3 {
+    border-width: calc(1vw * (2 / 1366 * 100));
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 12px;
+    background-color: rgb(98, 98, 98);
+    position: absolute;
+    left: calc(1vw * (606 / 1366 * 100));
+    top: calc(1vw * (18 / 1366 * 100));
+    width: calc(1vw * (98 / 1366 * 100));
+    height: calc(1vw * (139 / 1366 * 100));
+    z-index: 37;
+  }
+
+  .Rechthoek_2_kopiëren_2 {
+    border-width: calc(1vw * (2 / 1366 * 100));
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 12px;
+    background-color: rgb(98, 98, 98);
+    position: absolute;
+    left: calc(1vw * (472 / 1366 * 100));
+    top: calc(1vw * (18 / 1366 * 100));
+    width: calc(1vw * (98 / 1366 * 100));
+    height: calc(1vw * (139 / 1366 * 100));
+    z-index: 36;
+  }
+
+  .Rechthoek_2_kopiëren {
+    border-width: calc(1vw * (2 / 1366 * 100));
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 12px;
+    background-color: rgb(98, 98, 98);
+    position: absolute;
+    left: calc(1vw * (338 / 1366 * 100));
+    top: calc(1vw * (18 / 1366 * 100));
+    width: calc(1vw * (98 / 1366 * 100));
+    height: calc(1vw * (139 / 1366 * 100));
+    z-index: 35;
+  }
+
+  .Rechthoek_2 {
+    border-width: calc(1vw * (2 / 1366 * 100));
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    text-decoration: none;
+    border-radius: 12px;
+    background-color: rgb(98, 98, 98);
+    position: absolute;
+    left: calc(1vw * (204 / 1366 * 100));
+    top: calc(1vw * (18 / 1366 * 100));
+    width: calc(1vw * (98 / 1366 * 100));
+    height: calc(1vw * (139 / 1366 * 100));
+    z-index: 34;
+  }
+
+ 
+
+  .CONTACT {
+    font-size: calc(1vw * (30 / 1366 * 100));
+    font-family: "Agency FB";
+    color: rgb(57, 255, 20);
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: calc(1vw * (1036 / 1366 * 100));
+    top: calc(1vw * (98 / 1366 * 100));
+    z-index: 31;
+  }
+
+  .ABOUT_US {
+    font-size: calc(1vw * (30 / 1366 * 100));
+    font-family: "Agency FB";
+    color: rgb(57, 255, 20);
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: calc(1vw * (910 / 1366 * 100));
+    top: calc(1vw * (98 / 1366 * 100));
+    z-index: 30;
+  }
+
+  .MERCH {
+    font-size: calc(1vw * (30 / 1366 * 100));
+    font-family: "Agency FB";
+    color: rgb(57, 255, 20);
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: calc(1vw * (1218 / 1366 * 100));
+    top: calc(1vw * (35 / 1366 * 100));
+    z-index: 29;
+  }
+
+  .REVIEWS {
+    font-size: calc(1vw * (30 / 1366 * 100));
+    font-family: "Agency FB";
+    color: rgb(57, 255, 20);
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: calc(1vw * (1104 / 1366 * 100));
+    top: calc(1vw * (35 / 1366 * 100));
+    z-index: 28;
+  }
+
+  .RATINGS {
+    font-size: calc(1vw * (30 / 1366 * 100));
+    font-family: "Agency FB";
+    color: rgb(57, 255, 20);
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: calc(1vw * (992 / 1366 * 100));
+    top: calc(1vw * (35 / 1366 * 100));
+    z-index: 27;
+  }
+
+  .HOME {
+    font-size: calc(1vw * (30 / 1366 * 100));
+    font-family: "Agency FB";
+    color: rgb(57, 255, 20);
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: calc(1vw * (910 / 1366 * 100));
+    top: calc(1vw * (35 / 1366 * 100));
+    z-index: 26;
+  }
+
+  .Rechthoek_2_kopiëren_6 {
+    border-width: calc(1vw * (2 / 1366 * 100));
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 12px;
+    background-color: rgb(49, 49, 49);
+    position: absolute;
+    left: calc(1vw * (892 / 1366 * 100));
+    top: calc(1vw * (18 / 1366 * 100));
+    width: calc(1vw * (419 / 1366 * 100));
+    height: calc(1vw * (138 / 1366 * 100));
+    z-index: 25;
+  }
+
+  .Rechthoek_1_kopiëren {
+    background-color: rgb(67, 67, 67);
+    position: absolute;
+    width: calc(1vw * (1366 / 1366 * 100));
+    height: calc(1vw * (180 / 1366 * 100));
+    z-index: 23;
+  }
+
+
+
+
+  .Instagram {
+    font-size: calc(1vw * (12.5 / 1366 * 100));
+    font-family: "FontAwesome";
+    color: rgb(57, 255, 20);
+    text-decoration: none;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix( 2.70461036890601,9.96124845166832e-17,0,2.70461036890601,0,0);
+    -webkit-transform: matrix( 2.70461036890601,9.96124845166832e-17,0,2.70461036890601,0,0);
+    -ms-transform: matrix( 2.70461036890601,9.96124845166832e-17,0,2.70461036890601,0,0);
+    position: fixed;
+    left: calc(1vw * (714 / 1366 * 100));
+    bottom: calc(1vw * (24 / 1366 * 100));
+    z-index: 19;
+  }
+
+  .Snapchat {
+    font-size: calc(1vw * (12.5 / 1366 * 100));
+    font-family: "FontAwesome";
+    color: rgb(57, 255, 20);
+    text-decoration: none;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix( 2.70461036890601,9.96124845166832e-17,0,2.70461036890601,0,0);
+    -webkit-transform: matrix( 2.70461036890601,9.96124845166832e-17,0,2.70461036890601,0,0);
+    -ms-transform: matrix( 2.70461036890601,9.96124845166832e-17,0,2.70461036890601,0,0);
+    position: fixed;
+    left: calc(1vw * (675 / 1366 * 100));
+    bottom: calc(1vw * (24 / 1366 * 100));
+    z-index: 18;
+  }
+
+  .Facebook {
+    font-size: calc(1vw * (12.5 / 1366 * 100));
+    font-family: "FontAwesome";
+    color: rgb(57, 255, 20);
+    text-decoration: none;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix( 2.70461036890601,9.96124845166832e-17,0,2.70461036890601,0,0);
+    -webkit-transform: matrix( 2.70461036890601,9.96124845166832e-17,0,2.70461036890601,0,0);
+    -ms-transform: matrix( 2.70461036890601,9.96124845166832e-17,0,2.70461036890601,0,0);
+    position: fixed;
+    left: calc(1vw * (635 / 1366 * 100));
+    bottom: calc(1vw * (24 / 1366 * 100));
+    z-index: 17;
+  }
+
+  .CONTACT2 {
+    font-size: calc(1vw * (24 / 1366 * 100));
+    font-family: "Agency FB";
+    color: rgb(57, 255, 20);
+    text-decoration: none;
+    line-height: 1.2;
+    text-align: center;
+    position: fixed;
+    left: calc(1vw * (1280 / 1366 * 100));
+    bottom: calc(1vw * (17.5 / 1366 * 100));
+    z-index: 15;
+  }
+
+  .DISCLAIMER_COPYRIGHT {
+    font-size: calc(1vw * (24 / 1366 * 100));
+    font-family: "Agency FB";
+    color: rgb(57, 255, 20);
+    line-height: 1.2;
+    text-align: center;
+    position: fixed;
+    left: calc(1vw * (15 / 1366 * 100));
+    bottom: calc(1vw * (17.5 / 1366 * 100));
+    z-index: 14;
+  }
+
+  .Rechthoek_1 {
+    background-color: rgb(49, 49, 49);
+    position: fixed;
+    bottom: calc(1vw * (0 / 1366 * 100));
+    width: calc(1vw * (1366 / 1366 * 100));
+    height: calc(1vw * (65 / 1366 * 100));
+    z-index: 13;
+  }
+
+
+  .Game_Reviews {
+    font-size: calc(1vw * (48 / 1366 * 100));
+    font-family: "Agency FB";
+    color: rgb(50, 189, 24);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: calc(1vw * (770 / 1366 * 100));
+    top: calc(1vw * (197 / 1366 * 100));
+    z-index: 10;
+  }
+
+  .Rechthoek_2_kopiëren_5 {
+    background-image: url('../images/last-of-us.png');
+    background-size: cover;
+    border-width: calc(1vw * (6 / 1366 * 100));
+    border-color: rgb(0, 255, 0);
+    border-style: solid;
+    border-radius: 12px;
+    background-color: rgb(67, 67, 67);
+    position: absolute;
+    left: calc(1vw * (21 / 1366 * 100));
+    top: calc(1vw * (206 / 1366 * 100));
+    width: calc(1vw * (363 / 1366 * 100));
+    height: calc(1vw * (460 / 1366 * 100));
+    z-index: 4;
+  }
+  
+
+
+  .ReviewTitel1 {
+    font-size: calc(1vw * (36 / 1366 * 100));
+    font-family: "Agency FB";
+    color: rgb(50, 189, 24);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: calc(1vw * (520 / 1366 * 100));
+    top: calc(1vw * (293 / 1366 * 100));
+    z-index: 8;
+  }
+  
+  .ReviewStars1 {
+  font-size: calc(1vw * (27 / 1366 * 100));
+  font-family: "FontAwesome";
+  color: rgb(55, 226, 23);
+  line-height: 1.2;
+  text-align: justifyLeft;
+  position: absolute;
+  left: calc(1vw * (777 / 1366 * 100));
+  top: calc(1vw * (300 / 1366 * 100));
+  z-index: 8;
+}
+
+  .Review1 {
+    font-size: calc(1vw * (24 / 1366 * 100));
+    font-family: "Agency FB";
+    color: rgb(50, 189, 24);
+    line-height: 1.2;
+    text-align: justifyLeft;
+    position: absolute;
+    left: calc(1vw * (524 / 1366 * 100));
+    top: calc(1vw * (336 / 1366 * 100));
+    width: calc(1vw * (720 / 1366 * 100));
+    height: calc(1vw * (51 / 1366 * 100));
+    z-index: 8;
+  }
+  
+  .Rechthoek_2_kopiëren_7 {
+    border-width: calc(1vw * (6 / 1366 * 100));
+    border-color: rgb(0, 255, 0);
+    border-style: solid;
+    border-radius: 12px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: calc(1vw * (500 / 1366 * 100));
+    top: calc(1vw * (281 / 1366 * 100));
+    width: calc(1vw * (764 / 1366 * 100));
+    height: calc(1vw * (148 / 1366 * 100));
+    z-index: 7;
+  }
+
+  .ReviewTitel2 {
+    font-size: calc(1vw * (36 / 1366 * 100));
+    font-family: "Agency FB";
+    color: rgb(50, 189, 24);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: calc(1vw * (521 / 1366 * 100));
+    top: calc(1vw * (479 / 1366 * 100));
+    z-index: 8;
+  }  
+
+  .ReviewStars2 {
+    font-size: calc(1vw * (27 / 1366 * 100));
+    font-family: "FontAwesome";
+    color: rgb(55, 226, 23);
+    line-height: 1.2;
+    text-align: justifyLeft;
+    position: absolute;
+    left: calc(1vw * (708 / 1366 * 100));
+    top: calc(1vw * (488 / 1366 * 100));
+    z-index: 8;
+  }
+  
+  .Review2 {
+    font-size: calc(1vw * (24 / 1366 * 100));
+    font-family: "Agency FB";
+    color: rgb(50, 189, 24);
+    line-height: 1.2;
+    text-align: justifyLeft;
+    position: absolute;
+    left: calc(1vw * (524 / 1366 * 100));
+    top: calc(1vw * (525 / 1366 * 100));
+    width: calc(1vw * (736 / 1366 * 100));
+    height: calc(1vw * (109 / 1366 * 100));
+    z-index: 8;
+  }
+  
+  .Review2 span {font-weight: bold; cursor: pointer;}
+
+  .Rechthoek_2_kopiëren_8 {
+    border-width: calc(1vw * (6 / 1366 * 100));
+    border-color: rgb(0, 255, 0);
+    border-style: solid;
+    border-radius: 12px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: calc(1vw * (500 / 1366 * 100));
+    top: calc(1vw * (468 / 1366 * 100));
+    width: calc(1vw * (764 / 1366 * 100));
+    height: calc(1vw * (175 / 1366 * 100));
+    z-index: 7;
+  }
+  
+  
+  .Achtergrond {
+    background-color: #1b1b1b;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(1vw * (1366 / 1366 * 100));
+    height: calc(1vw * (768 / 1366 * 100));
+    z-index: 2;
+  }
+  
+
+  @media screen and (max-width: 768px){
+    .Top_3_Games {
+      font-size: calc(1vw * (96 / 1366 * 100)); 
+      left: calc(1vw * (480 / 1366 * 100));
+      top: calc(1vw * (197 / 1366 * 100));
+    }
+
+    .Rechthoek_1 {
+      height: calc(1vw * (105 / 1366 * 100));
+    }
+
+    .CONTACT2 {
+      font-size: calc(1vw * (48 / 1366 * 100));
+      left: calc(1vw * (1220 / 1366 * 100));
+      bottom: calc(1vw * (20.5 / 1366 * 100));
+    }
+
+    .DISCLAIMER_COPYRIGHT {
+      font-size: calc(1vw * (48 / 1366 * 100));
+      bottom: calc(1vw * (20.5 / 1366 * 100));
+    }
+
+    .Instagram {
+      font-size: calc(1vw * (25 / 1366 * 100));
+      left: calc(1vw * (764 / 1366 * 100));
+      bottom: calc(1vw * (32 / 1366 * 100));
+    }
+
+    .Snapchat {
+      font-size: calc(1vw * (25 / 1366 * 100));
+      bottom: calc(1vw * (32 / 1366 * 100));
+    }
+
+    .Facebook {
+      font-size: calc(1vw * (25 / 1366 * 100));
+      left: calc(1vw * (585 / 1366 * 100));
+      bottom: calc(1vw * (32 / 1366 * 100));
+    }
+
+    .CONTACT {
+      font-size: calc(1vw * (40 / 1366 * 100));
+      text-align: center;
+      left: calc(1vw * (1165 / 1366 * 100));
+      top: calc(1vw * (69.5 / 1366 * 100));
+    }
+    .ABOUT_US {
+      font-size: calc(1vw * (40 / 1366 * 100));
+      left: calc(1vw * (970 / 1366 * 100));
+      top: calc(1vw * (69.5 / 1366 * 100));
+    }
+    .MERCH {
+      font-size: calc(1vw * (40 / 1366 * 100));
+      left: calc(1vw * (808 / 1366 * 100));
+      top: calc(1vw * (69.5 / 1366 * 100));
+    }
+    .REVIEWS {
+      font-size: calc(1vw * (40 / 1366 * 100));
+      left: calc(1vw * (628 / 1366 * 100));
+      top: calc(1vw * (69.5 / 1366 * 100));
+    }
+    .RATINGS {
+      font-size: calc(1vw * (40 / 1366 * 100));
+      left: calc(1vw * (450 / 1366 * 100));
+      top: calc(1vw * (69.5 / 1366 * 100));
+    }
+    .HOME {
+      font-size: calc(1vw * (40 / 1366 * 100));
+      left: calc(1vw * (289 / 1366 * 100));
+      top: calc(1vw * (69.5 / 1366 * 100));
+    }
+    .Rechthoek_2_kopiëren_6 {
+      left: calc(1vw * (234 / 1366 * 100));
+      width: calc(1vw * (1077 / 1366 * 100));
+    }
+
+    .PC_icon {display: none;}
+    .Mobile_icon {display: none;}
+    .PlayStation_icon {display: none;}
+    .XBOX_icon {display: none;}
+    .Switch_icon {display: none;}
+    .PC {display: none;}
+    .Mobile {display: none;}
+    .PlayStation {display: none;}
+    .XBOX {display: none;}
+    .Switch {display: none;}
+    .Rechthoek_2_kopiëren_4 {display: none;}
+    .Rechthoek_2_kopiëren_3 {display: none;}
+    .Rechthoek_2_kopiëren_2 {display: none;}
+    .Rechthoek_2_kopiëren {display: none;}
+    .Rechthoek_2 {display: none;}
+    
+  }
