@@ -531,6 +531,49 @@ input[type=radio] {
   }
   
 
+  table{
+    width: 50vw;
+    font-family: "Agency FB";
+    font-size: calc(1vw * (14 / 1366 * 100));
+  }
+  
+    .table{
+      color: black;
+      z-index: 60;
+      position: absolute;
+      top: 27vw;
+      height: 30vw;
+    left: 25vw;
+    }
+    th{
+      border: 1px solid rgb(57, 255, 20);
+      background-color: rgb(173, 255, 177);
+      text-align: left;
+    padding: 0.25vw;
+      width: 90px;
+    }
+    td{
+      border: 1px solid rgb(57, 255, 20);
+      background-color: white;
+    }
+    
+    .table2{
+      color: black;
+      z-index: 60;
+      position: absolute;
+      top: 15vw;
+      left: 25vw;
+    }
+    .kop{
+      color: rgb(0, 0, 0);
+      z-index: 60;
+    text-align: center;
+    }
+
+
+
+
+
   @media screen and (max-width: 768px){
     .Top_3_Games {
       font-size: calc(1vw * (96 / 1366 * 100)); 
