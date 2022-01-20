@@ -535,22 +535,22 @@ input[type=radio] {
 	z-index: 60;
 	width: calc(1vw * (600 / 1366 * 100));;
 	top: calc(1vw * (250 / 1366 * 100));
-	left: calc(1vw * (380 / 1366 * 100));
+	left: calc(1vw * (375 / 1366 * 100));
 	border: calc(1vw * (3 / 1366 * 100)) solid rgb(57, 255, 20);
 	border-radius: calc(1vw * (20 / 1366 * 100));
 }
 
 .onsteam{
-	position: absolute;
-	z-index: 63;
-	top: calc(1vw * (200 / 1366 * 100));
-	left: calc(1vw * (430 / 1366 * 100));
-	width: calc(1vw * (475 / 1366 * 100));
-	font-size: calc(1vw * (38 / 1366 * 100));
-	font-weight: bold;
+font-size: calc(1vw * (48 / 1366 * 100));
     font-family: "Agency FB";
-	text-align: center;
-	color: rgb(57, 255, 20);
+    color: rgb(50, 189, 24);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: calc(1vw * (580 / 1366 * 100));
+    top: calc(1vw * (188 / 1366 * 100));
+    z-index: 10;
 }
 
 .tekst{
@@ -572,3 +572,121 @@ input[type=radio] {
 #height{
 	height: calc(1vw * (800 / 1366 * 100));
 }
+
+@media screen and (max-width: 768px){
+    .onsteam {
+      font-size: calc(1vw * (96 / 1366 * 100)); 
+      left: calc(1vw * (500 / 1366 * 100));
+      top: calc(1vw * (350 / 1366 * 100));
+    }
+  
+    #video {
+      top: calc(1vw * (475 / 1366 * 100));
+	  width: calc(1vw * (950 / 1366 * 100));;
+	  left: calc(1vw * (200 / 1366 * 100));
+    }
+	
+	.tekst{
+	  font-size: calc(1vw * (42 / 1366 * 100)); 
+	  width: calc(1vw * (800 / 1366 * 100));
+      left: calc(1vw * (265 / 1366 * 100));
+      top: calc(1vw * (1050 / 1366 * 100));
+	}
+    .Rechthoek_2_kopiëren_8 {
+      width: calc(1vh * (237 / 768 * 120));
+      height: calc(1vh * (294 / 768 * 120));
+    }
+    .Rechthoek_2_kopiëren_7 {
+      width: calc(1vh * (237 / 768 * 120));
+      height: calc(1vh * (294 / 768 * 120));
+    }
+    .Rechthoek_2_kopiëren_5 {
+      width: calc(1vh * (237 / 768 * 120));
+      height: calc(1vh * (294 / 768 * 120));
+    }
+
+    .Rechthoek_1 {
+      height: calc(1vw * (105 / 1366 * 100));
+    }
+
+    .CONTACT2 {
+      font-size: calc(1vw * (48 / 1366 * 100));
+      left: calc(1vw * (1220 / 1366 * 100));
+      bottom: calc(1vw * (20.5 / 1366 * 100));
+    }
+
+    .DISCLAIMER_COPYRIGHT {
+      font-size: calc(1vw * (48 / 1366 * 100));
+      bottom: calc(1vw * (20.5 / 1366 * 100));
+    }
+
+    .Instagram {
+      font-size: calc(1vw * (25 / 1366 * 100));
+      left: calc(1vw * (764 / 1366 * 100));
+      bottom: calc(1vw * (32 / 1366 * 100));
+    }
+
+    .Snapchat {
+      font-size: calc(1vw * (25 / 1366 * 100));
+      bottom: calc(1vw * (32 / 1366 * 100));
+    }
+
+    .Facebook {
+      font-size: calc(1vw * (25 / 1366 * 100));
+      left: calc(1vw * (585 / 1366 * 100));
+      bottom: calc(1vw * (32 / 1366 * 100));
+    }
+
+    .CONTACT {
+      font-size: calc(1vw * (40 / 1366 * 100));
+      text-align: center;
+      left: calc(1vw * (1165 / 1366 * 100));
+      top: calc(1vw * (69.5 / 1366 * 100));
+    }
+    .ABOUT_US {
+      font-size: calc(1vw * (40 / 1366 * 100));
+      left: calc(1vw * (970 / 1366 * 100));
+      top: calc(1vw * (69.5 / 1366 * 100));
+    }
+    .MERCH {
+      font-size: calc(1vw * (40 / 1366 * 100));
+      left: calc(1vw * (808 / 1366 * 100));
+      top: calc(1vw * (69.5 / 1366 * 100));
+    }
+    .REVIEWS {
+      font-size: calc(1vw * (40 / 1366 * 100));
+      left: calc(1vw * (628 / 1366 * 100));
+      top: calc(1vw * (69.5 / 1366 * 100));
+    }
+    .RATINGS {
+      font-size: calc(1vw * (40 / 1366 * 100));
+      left: calc(1vw * (450 / 1366 * 100));
+      top: calc(1vw * (69.5 / 1366 * 100));
+    }
+    .HOME {
+      font-size: calc(1vw * (40 / 1366 * 100));
+      left: calc(1vw * (289 / 1366 * 100));
+      top: calc(1vw * (69.5 / 1366 * 100));
+    }
+    .Rechthoek_2_kopiëren_6 {
+      left: calc(1vw * (234 / 1366 * 100));
+      width: calc(1vw * (1077 / 1366 * 100));
+    }
+
+    .PC_icon {display: none;}
+    .Mobile_icon {display: none;}
+    .PlayStation_icon {display: none;}
+    .XBOX_icon {display: none;}
+    .Switch_icon {display: none;}
+    .PC {display: none;}
+    .Mobile {display: none;}
+    .PlayStation {display: none;}
+    .XBOX {display: none;}
+    .Switch {display: none;}
+    .Rechthoek_2_kopiëren_4 {display: none;}
+    .Rechthoek_2_kopiëren_3 {display: none;}
+    .Rechthoek_2_kopiëren_2 {display: none;}
+    .Rechthoek_2_kopiëren {display: none;}
+    .Rechthoek_2 {display: none;}
+    
+  }
