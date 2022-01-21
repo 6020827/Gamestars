@@ -600,7 +600,7 @@ input[type=radio] {
       border-width: calc(1vw * (6 / 1366 * 100));
       border-color: rgb(0, 255, 0);
       border-style: solid;
-      border-radius: 12px;
+      border-radius: calc(1vw * (12 / 1366 * 100));
       background-color: rgb(67, 67, 67);
       position: absolute;
       left: calc(1vw * (21 / 1366 * 100));
@@ -655,7 +655,7 @@ input[type=radio] {
       border-width: calc(1vw * (6 / 1366 * 100));
       border-color: rgb(0, 255, 0);
       border-style: solid;
-      border-radius: 12px;
+      border-radius: calc(1vw * (12 / 1366 * 100));
       background-color: rgb(0, 0, 0);
       position: absolute;
       left: calc(1vw * (500 / 1366 * 100));
@@ -710,7 +710,7 @@ input[type=radio] {
       border-width: calc(1vw * (6 / 1366 * 100));
       border-color: rgb(0, 255, 0);
       border-style: solid;
-      border-radius: 12px;
+      border-radius: calc(1vw * (12 / 1366 * 100));
       background-color: rgb(0, 0, 0);
       position: absolute;
       left: calc(1vw * (500 / 1366 * 100));
@@ -719,6 +719,193 @@ input[type=radio] {
       height: calc(1vw * (175 / 1366 * 100));
       z-index: 7;
     }
+
+    .Merch {
+      font-size: calc(1vw * (48 / 1366 * 100));
+      font-family: "Agency FB";
+      color: rgb(50, 189, 24);
+      font-weight: bold;
+      line-height: 1.2;
+      text-align: center;
+      position: absolute;
+      left: calc(1vw * (633 / 1366 * 100));
+      top: calc(1vw * (197 / 1366 * 100));
+      z-index: 23;
+    }
+
+
+
+    .stuks {
+      font-size: calc(1vw * (36 / 1366 * 100));
+      font-family: "Agency FB";
+      color: rgb(255, 237, 0);
+      font-weight: bold;
+      line-height: 1.2;
+      text-align: center;
+      position: absolute;
+      left: calc(1vw * (558 / 1366 * 100));
+      top: calc(1vw * (286 / 1366 * 100));
+      z-index: 22;
+    }
+    .prijs {
+      font-size: calc(1vw * (36 / 1366 * 100));
+      font-family: "Agency FB";
+      color: rgb(255, 237, 0);
+      font-weight: bold;
+      line-height: 1.2;
+      text-align: center;
+      position: absolute;
+      left: calc(1vw * (734 / 1366 * 100));
+      top: calc(1vw * (286 / 1366 * 100));
+      z-index: 21;
+    }
+    .voor {
+      font-size: calc(1vw * (24 / 1366 * 100));
+      font-family: "Agency FB";
+      color: rgb(255, 237, 0);
+      font-weight: bold;
+      line-height: 1.2;
+      text-align: center;
+      position: absolute;
+      left: calc(1vw * (658 / 1366 * 100));
+      top: calc(1vw * (300 / 1366 * 100));
+      z-index: 20;
+    }
+    .Rechthoek_2_kopiëren_14 {
+      border-width: calc(1vw * (3 / 1366 * 100));
+      border-color: rgb(0, 255, 0);
+      border-style: solid;
+      border-radius: calc(1vw * (12 / 1366 * 100)) calc(1vw * (12 / 1366 * 100)) 0 0;
+      background-color: rgb(0, 0, 0);
+      position: absolute;
+      left: calc(1vw * (521 / 1366 * 100));
+      top: calc(1vw * (273 / 1366 * 100));
+      width: calc(1vw * (317 / 1366 * 100));
+      height: calc(1vw * (62 / 1366 * 100));
+      z-index: 19;
+    }
+    ._1stuk {
+      font-size: calc(1vw * (24 / 1366 * 100));
+      font-family: "Agency FB";
+      color: rgb(50, 189, 24);
+      font-weight: bold;
+      line-height: 1.2;
+      text-align: center;
+      position: absolute;
+      left: calc(1vw * (569 / 1366 * 100));
+      top: calc(1vw * (343 / 1366 * 100));
+      z-index: 18;
+    }
+    .Rechthoek_2_kopiëren_15 {
+      border-width: calc(1vw * (3 / 1366 * 100));
+      border-color: rgb(0, 255, 0);
+      border-style: solid;
+      background-color: rgba(0, 0, 0, 0.51);
+      position: absolute;
+      left: calc(1vw * (541 / 1366 * 100));
+      top: calc(1vw * (337 / 1366 * 100));
+      width: calc(1vw * (93 / 1366 * 100));
+      height: calc(1vw * (30 / 1366 * 100));
+      z-index: 17;
+    }
+    ._2stuks {
+      font-size: calc(1vw * (24 / 1366 * 100));
+      font-family: "Agency FB";
+      color: rgb(255, 237, 0);
+      font-weight: bold;
+      line-height: 1.2;
+      text-align: center;
+      position: absolute;
+      left: calc(1vw * (561 / 1366 * 100));
+      top: calc(1vw * (375 / 1366 * 100));
+      z-index: 16;
+    }
+    .Rechthoek_2_kopiëren_16 {
+      border-width: calc(1vw * (3 / 1366 * 100));
+      border-color: rgb(0, 255, 0);
+      border-style: solid;
+      background-color: rgba(0, 0, 0, 0.51);
+      position: absolute;
+      left: calc(1vw * (541 / 1366 * 100));
+      top: calc(1vw * (369 / 1366 * 100));
+      width: calc(1vw * (93 / 1366 * 100));
+      height: calc(1vw * (30 / 1366 * 100));
+      z-index: 15;
+    }
+    ._3stuks {
+      font-size: calc(1vw * (24 / 1366 * 100));
+      font-family: "Agency FB";
+      color: rgb(255, 237, 0);
+      font-weight: bold;
+      line-height: 1.2;
+      text-align: center;
+      position: absolute;
+      left: calc(1vw * (562 / 1366 * 100));
+      top: calc(1vw * (407 / 1366 * 100));
+      z-index: 14;
+    }
+    .Rechthoek_2_kopiëren_17 {
+      border-width: calc(1vw * (3 / 1366 * 100));
+      border-color: rgb(0, 255, 0);
+      border-style: solid;
+      background-color: rgba(0, 0, 0, 0.51);
+      position: absolute;
+      left: calc(1vw * (541 / 1366 * 100));
+      top: calc(1vw * (401 / 1366 * 100));
+      width: calc(1vw * (93 / 1366 * 100));
+      height: calc(1vw * (30 / 1366 * 100));
+      z-index: 13;
+    }
+    .Afrekenen {
+      font-size: calc(1vw * (24 / 1366 * 100));
+      font-family: "Agency FB";
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      line-height: 1.2;
+      text-align: center;
+      position: absolute;
+      left: calc(1vw * (638 / 1366 * 100));
+      top: calc(1vw * (511 / 1366 * 100));
+      z-index: 12;
+    }
+    .AfrekenKnop {
+      border-radius: calc(1vw * (12 / 1366 * 100));
+      background-color: rgb(255, 237, 0);
+      position: absolute;
+      left: calc(1vw * (599 / 1366 * 100));
+      top: calc(1vw * (501 / 1366 * 100));
+      width: calc(1vw * (160 / 1366 * 100));
+      height: calc(1vw * (48 / 1366 * 100));
+      z-index: 11;
+    }
+    .Fade {
+      border-radius: calc(1vw * (12 / 1366 * 100));
+      background-color: rgba(0, 0, 0, 0.4);
+      position: absolute;
+      left: calc(1vw * (525 / 1366 * 100));
+      top: calc(1vw * (277 / 1366 * 100));
+      width: calc(1vw * (316 / 1366 * 100));
+      height: calc(1vw * (316 / 1366 * 100));
+      z-index: 10;
+    }
+    .Rechthoek_merch_2 {
+      border-width: calc(1vw * (4 / 1366 * 100));
+      border-color: rgb(0, 255, 0);
+      border-style: solid;
+      border-radius: calc(1vw * (12 / 1366 * 100));
+      background-color: rgb(67, 67, 67);
+      background-image: url('../images/Rick-astley.png');
+      background-size: cover;
+      position: absolute;
+      left: calc(1vw * (521 / 1366 * 100));
+      top: calc(1vw * (273 / 1366 * 100));
+      width: calc(1vw * (316 / 1366 * 100));
+      height: calc(1vw * (316 / 1366 * 100));
+      z-index: 9;
+    }
+    
+
+
 
 
   @media screen and (max-width: 768px){
