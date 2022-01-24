@@ -489,6 +489,8 @@ input[type=radio] {
     border-style: solid;
     border-radius: 12px;
     background-color: rgb(67, 67, 67);
+    background-image: url('../images/last-of-us.png');
+    background-size: cover;
     position: absolute;
     /*left: calc(1vw * (177 / 1366 * 100));
     top: calc(1vw * (300 / 1366 * 100));*/
@@ -503,6 +505,8 @@ input[type=radio] {
     border-style: solid;
     border-radius: 12px;
     background-color: rgb(67, 67, 67);
+    background-image: url('../images/counter-strike.jpg');
+    background-size: cover;
     position: absolute;
     /*left: calc(1vw * (946 / 1366 * 100));
     top: calc(1vw * (300 / 1366 * 100));*/
@@ -517,6 +521,8 @@ input[type=radio] {
     border-style: solid;
     border-radius: 12px;
     background-color: rgb(67, 67, 67);
+    background-image: url('../images/rdr2.jpg');
+    background-size: cover;
     position: absolute;
     /*left: calc(1vw * (529 / 1366 * 100));
     top: calc(1vw * (273 / 1366 * 100));*/
