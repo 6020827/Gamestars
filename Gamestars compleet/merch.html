@@ -13,7 +13,7 @@
 
 </head>
 	<body>
-		<a class="Logo" href="index.html" href="index.html"></a>
+		<a class="Logo" href="index.html"></a>
 		<a class="PC_icon" href="#"></a>
 		<a class="Mobile_icon" href="#"></a>
 		<a class="PlayStation_icon" href="#"></a>
@@ -29,8 +29,8 @@
 		<a class="Rechthoek_2_kopiëren_2" href="#"></a>
 		<a class="Rechthoek_2_kopiëren" href="#"></a>
 		<a class="Rechthoek_2" href="#"></a>
-		<a class="CONTACT" href="#">CONTACT</a>
-		<a class="ABOUT_US" href="#">ABOUT US</a>
+		<a class="CONTACT" href="contact.html">CONTACT</a>
+		<a class="ABOUT_US" href="aboutus.html">ABOUT US</a>
 		<a class="MERCH" href="merch.html" style="text-decoration: underline;">MERCH</a>
 		<a class="REVIEWS" href="reviews.html">REVIEWS</a>
 		<a class="RATINGS" href="ratings.html">RATINGS</a>
@@ -40,30 +40,72 @@
 		<a class="Instagram" href="#">&#xf16d;</a>
 		<a class="Snapchat" href="#">&#xf2ad;</a>
 		<a class="Facebook" href="#">&#xf082;</a>
-		<a class="CONTACT2" href="#">CONTACT</a>
+		<a class="CONTACT2" href="contact.html">CONTACT</a>
 		<p class="DISCLAIMER_COPYRIGHT">DISCLAIMER: COPYRIGHT</p>
 		<div class="Rechthoek_1"></div>
+		<div class="Achtergrond" style="height: calc(1vw * (768 / 1366 * 100));"></div>
 		
 		<p class="Merch">Merch</p>
-		<p class="stuks">1 stuk</p>
-		<p class="prijs">€69,42</p>
+		
+		<div class="dropdown">
+			<button onclick="myFunction()" class="stuks dropbtn">1 stuk</button>
+			<div id="myDropdown" class="dropdown-content">
+				<a class="_1stuk" onclick="items('myDropdown', 0)">1 stuk</a>
+				<a class="_2stuks" onclick="items('myDropdown', 1)">2 stuks</a>
+				<a class="_3stuks" onclick="items('myDropdown', 2)">3 stuks</a>
+				<div class="Rechthoek_2_kopiëren_15"></div>
+				<div class="Rechthoek_2_kopiëren_16"></div>
+				<div class="Rechthoek_2_kopiëren_17"></div>
+			</div>
+		</div>
+		
+
+
+
+		<p id="prijs2">€69,42</p>
 		<p class="voor">voor</p>
-		<p class="_1stuk">1 stuk</p>
-		<p class="_2stuks">2 stuks</p>
-		<p class="_3stuks">3 stuks</p>
 		<p class="Afrekenen">Afrekenen</p>
 		<div class="Rechthoek_2_kopiëren_14"></div>
-		<div class="Rechthoek_2_kopiëren_15"></div>
-		<div class="Rechthoek_2_kopiëren_16"></div>
-		<div class="Rechthoek_2_kopiëren_17"></div>
+		
 		<div class="AfrekenKnop"></div>
 		<div class="Fade"></div>
 		<div class="Rechthoek_merch_2"></div>
 
 
+<script>
+		/* When the user clicks on the button,
+		toggle between hiding and showing the dropdown content */
+		function myFunction() {
+		  document.getElementById("myDropdown").classList.toggle("show");
+		}
+		
+		function items(a,b){
+			var prijs = 69.42;
+			var totaalprijs = prijs*(b+1);
+			var c = b*2+1;
+			var item = document.getElementById(a).childNodes[c].innerHTML;
+			document.getElementById(a).parentElement.childNodes[1].innerHTML = item;
+			document.getElementById('prijs2').innerHTML = "€"+totaalprijs.toString().replace(".", ",");
+		}
+		
+		
+		
+		// Close the dropdown menu if the user clicks outside of it
+		window.onclick = function(event) {
+		  if (!event.target.matches('.dropbtn')) {
+			var dropdowns = document.getElementsByClassName("dropdown-content");
+			var i;
+			for (i = 0; i < dropdowns.length; i++) {
+			  var openDropdown = dropdowns[i];
+			  if (openDropdown.classList.contains('show')) {
+				openDropdown.classList.remove('show');
+			  }
+			}
+		  }
+		}
+</script>
 
-
-		<div class="Achtergrond" style="height: calc(1vw * (768 / 1366 * 100));"></div>
+		
 		
 	</body>
 </html>
