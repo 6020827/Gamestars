@@ -760,6 +760,8 @@ input[type=radio] {
     .dropdown-content a {cursor: pointer;}
     .show {display:block;}
 
+
+
     #prijs2 {
       font-size: calc(1vw * (36 / 1366 * 100));
       font-family: "Agency FB";
